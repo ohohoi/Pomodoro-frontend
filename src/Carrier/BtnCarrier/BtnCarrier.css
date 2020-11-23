@@ -1,0 +1,16 @@
+div#btn-carrier {
+    width: 100%;
+    height: var(--button-size);
+    margin-top: 10vmin;
+}
+
+div.btn {
+    width: var(--button-size);
+    height: var(--button-size);
+    float: left;
+    cursor: pointer;
+}
+
+div.btn img{
+    width: var(--button-size);
+}

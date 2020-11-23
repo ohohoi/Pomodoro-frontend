@@ -1,0 +1,4 @@
+div#pause-btn {
+    position: absolute;
+    left: calc(50vw - var(--button-size) / 2);
+}

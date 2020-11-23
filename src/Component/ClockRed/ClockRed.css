@@ -1,0 +1,7 @@
+div#clock-red {
+    background-color: #FA4B3A;
+    position: absolute;
+    width: var(--clock-size);
+    height: var(--clock-size);
+    border-radius: calc(var(--clock-size) / 2);
+}

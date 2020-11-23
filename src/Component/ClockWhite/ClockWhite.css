@@ -1,0 +1,11 @@
+canvas#clock-canvas {
+    position: absolute;
+    width: var(--clock-size);
+    height: var(--clock-size);
+}
+
+svg#clock-svg {
+    position: absolute;
+    width: var(--clock-size);
+    height: var(--clock-size);
+}

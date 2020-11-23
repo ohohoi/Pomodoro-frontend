@@ -1,0 +1,6 @@
+div#clock-carrier {
+    width: var(--clock-size);
+    height: var(--clock-size);
+    margin-top: 20vmin;
+    margin-left: calc(50vw - var(--clock-size) / 2);
+}
