@@ -1,5 +1,5 @@
 import * as types from '../actions/ActionTypes'
-import * as timerStates from '../store/timerStates'
+import * as timerStates from '../store/TimerStates'
 
 const initialState = {
     timerState: timerStates.STOP
