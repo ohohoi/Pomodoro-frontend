@@ -5,18 +5,18 @@ const initialState = {
     timerState: timerStates.STOP
 }
 
-const testReducer = (state, action) => {
+const updateTimerState = (state, action) => {
     if (state === undefined) {
         return initialState
     }
 
     switch(action.type) {
-        case types.START:
-            return { timerState: timerStates.START }
+        case types.UPDATE_TIMER_STATE:
+            return { timerState: action.timerState }
         
         default:
             return state
     }
 }
 
-export default testReducer
+export default updateTimerState

@@ -1,2 +1,1 @@
-export const START = 'START'
-export const PAUSE = 'PAUSE'
+export const UPDATE_TIMER_STATE = 'UPDATE_TIMER_STATE'

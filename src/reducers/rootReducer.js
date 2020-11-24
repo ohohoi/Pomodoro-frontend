@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import test from './test';
+import updateTimerState from './updateTimerState';
 
 const rootReducer = combineReducers({
-    test,
+    updateTimerState,
 });
 
 export default rootReducer;
