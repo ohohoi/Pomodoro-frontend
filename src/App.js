@@ -1,6 +1,6 @@
-import './App.css';
-import BtnCarrier from './Carrier/BtnCarrier/BtnCarrier';
-import ClockCarrier from './Carrier/ClockCarrier/ClockCarrier';
+import './App.css'
+import BtnCarrier from './Container/BtnContainer/BtnContainer'
+import ClockCarrier from './Container/ClockContainer/ClockContainer'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <ClockCarrier/>
       <BtnCarrier/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,1 +1,2 @@
-export const START = 'START';
+export const START = 'START'
+export const PAUSE = 'PAUSE'

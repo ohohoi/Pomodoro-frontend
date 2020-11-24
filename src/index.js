@@ -1,13 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { createStore } from 'redux';
-import { Provider } from 'react-redux';
-import rootReducer from './reducers/rootReducer';
-
-let store = createStore(rootReducer);
+import React from 'react'
+import './index.css'
+import ReactDOM from 'react-dom'
+import App from './App'
+import reportWebVitals from './reportWebVitals'
+import { Provider } from 'react-redux'
+import store from './store/store'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +13,6 @@ ReactDOM.render(
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
-);
+)
 
-reportWebVitals();
+reportWebVitals()

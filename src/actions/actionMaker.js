@@ -1,5 +1,6 @@
-import * as types from './ActionTypes';
+import * as types from './ActionTypes'
 
-export const start = () => ({
-    type: types.START
-});
+export const updateTimerState = (timerState) => ({
+    type: types.START,
+    timerState: timerState,
+})

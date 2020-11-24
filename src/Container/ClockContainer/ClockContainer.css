@@ -1,4 +1,4 @@
-div#clock-carrier {
+div#clock-container {
     width: var(--clock-size);
     height: var(--clock-size);
     margin-top: 20vmin;

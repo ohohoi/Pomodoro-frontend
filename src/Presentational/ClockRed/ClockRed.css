@@ -1,5 +1,9 @@
+:root {
+    --main-color: #E64548
+  }
+
 div#clock-red {
-    background-color: #FA4B3A;
+    background-color: var(--main-color);
     position: absolute;
     width: var(--clock-size);
     height: var(--clock-size);
