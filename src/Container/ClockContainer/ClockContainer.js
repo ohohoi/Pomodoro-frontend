@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './ClockContainer.css'
 import ClockRed from '../../Presentational/ClockRed/ClockRed'
+import ClockWhite from '../../Presentational/ClockWhite/ClockWhite'
 import store from '../../store/store'
 import * as timerStates from '../../store/TimerStates'
 
@@ -54,6 +55,7 @@ const ClockCarrier = () => {
     return (
         <div id="clock-container">
             <ClockRed/>
+            <ClockWhite/>
         </div>
     )
 }

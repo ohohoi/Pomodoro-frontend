@@ -1,12 +1,9 @@
 import React from 'react'
+import './ClockWhite.css'
 
 const ClockWhite = () => {
     return (
-        <div>
-            <canvas id="clock-canvas">
-                Your browser does not support the canvas tag.
-            </canvas>
-        </div>
+        <div id="clock-white"></div>
     )
 }
 

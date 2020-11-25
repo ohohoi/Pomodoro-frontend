@@ -1,3 +1,5 @@
+@import url("../../App.css");
+
 div#start-btn {
     position: absolute;
     left: calc(30vw - var(--button-size) / 2);

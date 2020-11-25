@@ -1,11 +1,7 @@
-canvas#clock-canvas {
-    position: absolute;
-    width: var(--clock-size);
-    height: var(--clock-size);
-}
+@import url("../../App.css");
 
-svg#clock-svg {
-    position: absolute;
+div#clock-white {
     width: var(--clock-size);
     height: var(--clock-size);
+    position: absolute;
 }

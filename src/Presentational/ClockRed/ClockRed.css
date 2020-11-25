@@ -1,11 +1,9 @@
-:root {
-    --main-color: #E64548
-  }
+@import url("../../App.css");
 
 div#clock-red {
-    background-color: var(--main-color);
-    position: absolute;
-    width: var(--clock-size);
-    height: var(--clock-size);
-    border-radius: calc(var(--clock-size) / 2);
+  width: var(--clock-size);
+  height: var(--clock-size);
+  position: absolute;
+  background-color: var(--main-color);
+  border-radius: calc(var(--clock-size) / 2);
 }
