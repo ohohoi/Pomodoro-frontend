@@ -1,6 +1,6 @@
 import './App.css'
-import BtnCarrier from './Container/BtnContainer/BtnContainer'
-import ClockCarrier from './Container/ClockContainer/ClockContainer'
+import BtnCarrier from './container/BtnContainer/BtnContainer'
+import ClockCarrier from './container/ClockContainer/ClockContainer'
 
 function App() {
   return (
