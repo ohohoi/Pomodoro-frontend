@@ -1,9 +1,12 @@
 import React from 'react'
 import './ClockRed.css'
+import clockSrc from '../../img/clock.png'
 
 const ClockRed = () => {
     return (
-        <div id="clock-red"></div>
+        <div className="clock-red">
+            <img src={ clockSrc } className="clock-red"/>
+        </div>
     )
 }
 

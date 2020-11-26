@@ -1,9 +1,18 @@
 @import url("../../App.css");
 
-div#clock-red {
+:root {
+  --shadow: calc(var(--clock-size) / 4)
+}
+
+div.clock-red {
   width: var(--clock-size);
   height: var(--clock-size);
   position: absolute;
-  background-color: var(--main-color);
-  border-radius: calc(var(--clock-size) / 2);
+
+}
+
+img.clock-red {
+  width: var(--clock-size);
+  height: var(--clock-size);
+  position: absolute;
 }

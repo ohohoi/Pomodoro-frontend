@@ -1,6 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-    <g>
-        <path fill="none" d="M0 0H100V100H0z" transform="translate(-652 -400) translate(652 400)"/>
-        <path fill="#fa4b3a" d="M45.154 7.638a5 5 0 0 1 8.692 0l40.9 71.889A5 5 0 0 1 90.4 87H8.6a5 5 0 0 1-4.346-7.473z" transform="translate(-652 -400) rotate(90 172.5 573)"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111" height="123" viewBox="0 0 111 123">
+  <defs>
+    <filter id="다각형_1" x="0" y="0" width="111" height="123" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#661f20" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_5" data-name="그룹 5" transform="translate(-646.5 -528.5)">
+    <rect id="사각형_1" data-name="사각형 1" width="100" height="100" transform="translate(652 540)" fill="none"/>
+    <g transform="matrix(1, 0, 0, 1, 646.5, 528.5)" filter="url(#다각형_1)">
+      <path id="다각형_1-2" data-name="다각형 1" d="M40.808,15.276a10,10,0,0,1,17.383,0L90.5,72.055A10,10,0,0,1,81.805,87H17.195A10,10,0,0,1,8.5,72.055Z" transform="translate(99 12) rotate(90)" fill="#e64548"/>
     </g>
+  </g>
 </svg>
