@@ -1,6 +1,6 @@
 @import url("../../App.css");
 
-div#clock-white {
+canvas#clock-white {
     width: var(--clock-size);
     height: var(--clock-size);
     position: absolute;

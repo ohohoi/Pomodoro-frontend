@@ -7,20 +7,20 @@ import { updateTimerState } from '../../actions/actionMaker'
 import store from '../../store/store'
 import * as timerStates from '../../store/TimerStates'
 
-const BtnCarrier = () => {
+const BtnContainer = () => {
     const onStartClick = () => {
-        const startAction = updateTimerState(timerStates.START);
-        store.dispatch(startAction);
+        const startAction = updateTimerState(timerStates.START)
+        store.dispatch(startAction)
     }
 
     const onPauseClick = () => {
-        const pauseAction = updateTimerState(timerStates.PAUSE);
-        store.dispatch(pauseAction);
+        const pauseAction = updateTimerState(timerStates.PAUSE)
+        store.dispatch(pauseAction)
     }
 
     const onStopClick = () => {
-        const stopAction = updateTimerState(timerStates.STOP);
-        store.dispatch(stopAction);
+        const stopAction = updateTimerState(timerStates.STOP)
+        store.dispatch(stopAction)
     }
 
     return (
@@ -32,4 +32,4 @@ const BtnCarrier = () => {
     )
 }
 
-export default BtnCarrier
+export default BtnContainer
