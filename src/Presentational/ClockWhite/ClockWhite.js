@@ -13,7 +13,7 @@ const ClockWhite = () => {
     const draw = () => {
         const totalSeconds = 1500
         const canvas = canvasRef.current
-        const context = canvas.getContext("2d")
+        const context = canvas.getContext('2d')
         const radius = canvas.width / 2
         const currSec = store.getState().updateTimerSeconds.seconds
         const startAngle = 1.5*Math.PI

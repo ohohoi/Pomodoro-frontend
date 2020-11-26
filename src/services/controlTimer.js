@@ -31,7 +31,6 @@ const controlTimer = () => {
 
         switch(newTimerState) {
             case timerStates.START:
-                console.log('start timer')
                 startTimer()
                 break
                 
