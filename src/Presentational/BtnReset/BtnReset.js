@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './BtnReset.css'
-import defSrc from '../../img/reset-r.svg'
-import hovSrc from '../../img/reset-w.svg'
+import defSrc from '../../resources/img/reset-r.svg'
+import hovSrc from '../../resources/img/reset-w.svg'
 
 const BtnStop = ({ onClick }) => {
     let [src, setSrc] = useState()

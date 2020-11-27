@@ -1,3 +1,5 @@
+@import url("../../App.css");
+
 @font-face {
     src: url("../../resources/font/HappyTime.otf");
     font-family: "copyright-font";
@@ -14,4 +16,12 @@ div.copyright {
     color: gray;
     font-size: 10px;
     font-family: "copyright-font";
+}
+
+div#div-icon-carrier {
+    margin-top: 5px;
+}
+
+img#github-logo {
+    cursor: pointer;
 }
