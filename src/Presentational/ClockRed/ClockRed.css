@@ -1,18 +1,20 @@
 @import url("../../App.css");
 
-:root {
-  --shadow: calc(var(--clock-size) / 4)
-}
-
 div.clock-red {
   width: var(--clock-size);
   height: var(--clock-size);
   position: absolute;
-
 }
 
 img.clock-red {
   width: var(--clock-size);
   height: var(--clock-size);
   position: absolute;
+}
+
+img.clock-label {
+  width: 15vmin;
+  position: absolute;
+  top: var(--clock-size);
+  left: calc((var(--clock-size) - 15vmin) / 2);
 }
