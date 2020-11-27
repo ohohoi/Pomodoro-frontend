@@ -1,6 +1,6 @@
 div#clock-container {
     width: var(--clock-size);
     height: var(--clock-size);
-    margin-top: 20vmin;
+    margin-top: 10vmin;
     margin-left: calc(50vw - var(--clock-size) / 2);
 }
