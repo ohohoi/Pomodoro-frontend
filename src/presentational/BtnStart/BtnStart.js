@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './BtnStart.css'
-import defSrc from '../../resources/img/start-r.svg'
-import hovSrc from '../../resources/img/start-w.svg'
+import defSrc from '../../resources/img/start-r.png'
+import hovSrc from '../../resources/img/start-w.png'
 
 const StartBtn = ({ onClick }) => {
     let [src, setSrc] = useState()

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './BtnPause.css'
-import defSrc from '../../resources/img/pause-r.svg'
-import hovSrc from '../../resources/img/pause-w.svg'
+import defSrc from '../../resources/img/pause-r.png'
+import hovSrc from '../../resources/img/pause-w.png'
 
 const PauseBtn = ({ onClick }) => {
     let [src, setSrc] = useState()
