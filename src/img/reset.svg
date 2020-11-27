@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <filter id="사각형_6" x="11" y="11" width="104" height="104" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#661f20" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_9" data-name="그룹 9" transform="translate(-1102 -537)">
+    <rect id="사각형_3" data-name="사각형 3" width="120" height="120" transform="translate(1102 537)" fill="none"/>
+    <g transform="matrix(1, 0, 0, 1, 1102, 537)" filter="url(#사각형_6)">
+      <rect id="사각형_6-2" data-name="사각형 6" width="80" height="80" rx="10" transform="translate(20 20)" fill="#e64548"/>
+    </g>
+  </g>
+</svg>

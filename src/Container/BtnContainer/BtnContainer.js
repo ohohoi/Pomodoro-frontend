@@ -2,7 +2,7 @@ import React from 'react'
 import './BtnContainer.css'
 import BtnStart from '../../presentational/BtnStart/BtnStart'
 import BtnPause from '../../presentational/BtnPause/BtnPause'
-import BtnStop from '../../presentational/BtnStop/BtnStop'
+import BtnReset from '../../presentational/BtnReset/BtnReset'
 import { updateTimerState } from '../../actions/actionMaker'
 import store from '../../store/store'
 import * as timerStates from '../../store/TimerStates'
@@ -18,16 +18,16 @@ const BtnContainer = () => {
         store.dispatch(pauseAction)
     }
 
-    const onStopClick = () => {
-        const stopAction = updateTimerState(timerStates.STOP)
-        store.dispatch(stopAction)
+    const onResetClick = () => {
+        const resetAction = updateTimerState(timerStates.RESET)
+        store.dispatch(resetAction)
     }
 
     return (
         <div id="btn-container">
             <BtnStart onClick={ onStartClick }/>
             <BtnPause onClick={ onPauseClick }/>
-            <BtnStop onClick={ onStopClick }/>
+            <BtnReset onClick={ onResetClick }/>
         </div>
     )
 }

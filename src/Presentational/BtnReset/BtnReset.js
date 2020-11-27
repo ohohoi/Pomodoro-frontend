@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import './BtnPause.css'
-import defSrc from '../../img/pause-r.svg'
-import hovSrc from '../../img/pause-w.svg'
+import './BtnReset.css'
+import defSrc from '../../img/reset-r.svg'
+import hovSrc from '../../img/reset-w.svg'
 
-const PauseBtn = ({ onClick }) => {
+const BtnStop = ({ onClick }) => {
     let [src, setSrc] = useState()
 
     useEffect(() => setSrc(defSrc), [])
@@ -17,14 +17,14 @@ const PauseBtn = ({ onClick }) => {
     }
 
     return (
-        <div id="pause-btn" className="btn" onClick={ onClick }>
+        <div id="reset-btn" className="btn" onClick={ onClick }>
             <img src={ src } 
-            className="pause" 
-            alt="pause button"
+            className="reset" 
+            alt="reset button"
             onMouseOver={ onMouseOver }
             onMouseOut= { onMouseOut }/>
         </div>
     )
 }
 
-export default PauseBtn
+export default BtnStop

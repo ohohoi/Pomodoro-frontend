@@ -2,7 +2,7 @@ import * as types from '../actions/ActionTypes'
 import * as timerStates from '../store/TimerStates'
 
 const initialState = {
-    timerState: timerStates.STOP
+    timerState: timerStates.RESET
 }
 
 const updateTimerState = (state, action) => {

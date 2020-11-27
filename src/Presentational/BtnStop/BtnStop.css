@@ -1,6 +1,0 @@
-@import url("../../App.css");
-
-div#stop-btn {
-    position: absolute;
-    left: calc(70vw - var(--button-size) / 2);
-}

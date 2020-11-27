@@ -6,7 +6,6 @@ div#btn-container {
 
 div.btn {
     width: var(--button-size);
-    height: var(--button-size);
     float: left;
     cursor: pointer;
 }

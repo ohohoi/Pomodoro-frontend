@@ -5,7 +5,7 @@ import { updateTimerState } from '../actions/actionMaker'
 
 const interval = 1000
 const totalSeconds = 1500
-let currTimerState = timerStates.STOP
+let currTimerState = timerStates.RESET
 let timerId = 0
 
 const startTimer = () => {
@@ -19,7 +19,7 @@ const pauseTimer = () => {
 const stopTimer = () => {
     clearInterval(timerId)
     reset()
-    store.dispatch(updateTimerState(timerStates.STOP))
+    store.dispatch(updateTimerState(timerStates.RESET))
 }
 
 const controlTimer = () => {
@@ -38,7 +38,7 @@ const controlTimer = () => {
                 pauseTimer()
                 break
 
-            case timerStates.STOP:
+            case timerStates.RESET:
                 stopTimer()
                 break
 

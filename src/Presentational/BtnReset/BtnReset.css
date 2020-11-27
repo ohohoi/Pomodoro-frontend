@@ -1,0 +1,6 @@
+@import url("../../App.css");
+
+div#reset-btn {
+    position: absolute;
+    left: calc(65vw - var(--button-size) / 2);
+}

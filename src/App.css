@@ -5,6 +5,6 @@
 
 :root {
   --clock-size: 40vmin;
-  --button-size: calc(var(--clock-size) / 4);
+  --button-size: calc(var(--clock-size) / 2);
   --main-color: #E64548;
 }

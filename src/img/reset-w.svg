@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="100" viewBox="0 0 250 100">
+  <defs>
+    <filter id="사각형_16" x="26" y="6" width="204" height="94" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#e64548" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_21" data-name="그룹 21" transform="translate(-1441 -406)">
+    <g id="그룹_14" data-name="그룹 14" transform="translate(370 -329)">
+      <g transform="matrix(1, 0, 0, 1, 1071, 735)" filter="url(#사각형_16)">
+        <rect id="사각형_16-2" data-name="사각형 16" width="180" height="70" rx="20" transform="translate(35 15)" fill="#fff"/>
+      </g>
+      <text id="reset" transform="translate(1196 799)" fill="#e64548" stroke="#e64548" stroke-width="1" font-size="40" font-family="AndaleMono, Andale Mono"><tspan x="-60.01" y="0">reset</tspan></text>
+    </g>
+    <rect id="사각형_21" data-name="사각형 21" width="250" height="100" transform="translate(1441 406)" fill="none"/>
+  </g>
+</svg>
