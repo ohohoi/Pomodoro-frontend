@@ -1,0 +1,17 @@
+@font-face {
+    src: url("../../resources/font/HappyTime.otf");
+    font-family: "copyright-font";
+}
+
+div#footer {
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div.copyright {
+    color: gray;
+    font-size: 10px;
+    font-family: "copyright-font";
+}

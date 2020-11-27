@@ -2,5 +2,5 @@
 
 div#start-btn {
     position: absolute;
-    left: calc(35vw - var(--button-size) / 2);
+    left: calc(30vw - var(--button-size) / 2);
 }
