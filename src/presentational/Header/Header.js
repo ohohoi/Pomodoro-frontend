@@ -3,16 +3,17 @@ import './Header.css'
 import logoSrc from '../../resources/img/pomodoro-1.png'
 import menuSrc from '../../resources/img/menu-icon.png'
 import { Button, Drawer } from '@material-ui/core'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     const menu = [
         {
-            type: "about",
-            display: "About"
+            link: "",
+            display: "Home"
         },
         {
-            type: "login",
-            display: "Login"
+            link: "about",
+            display: "About"
         }
     ]
     let [toggle, setToggle] = useState(false)
@@ -21,7 +22,9 @@ const Header = () => {
 
     return (
         <div id="header">
-            <img id="header-logo" src={ logoSrc } alt="pomodoro logo"/>
+            <Link to="/">
+                <img id="header-logo" src={ logoSrc } alt="pomodoro logo"/>
+            </Link>
             <div id="header-right">
                 <Button onClick={ toggleDrawer }>
                     <img id="header-menu-icon" src={ menuSrc } alt="menu"/>
@@ -31,9 +34,11 @@ const Header = () => {
                     <div id="drawer-menu">
                         {
                             menu.map((d, i) => { return (
-                                <div id="menu" key={ i }>
-                                    { d.display }
-                                </div>
+                                <Link to={ `/${ d.link }` } style={{ textDecoration: 'none' }} key={ i }>
+                                    <div id="menu" onClick={ toggleDrawer }>
+                                        { d.display }
+                                    </div>
+                                </Link>
                             )})
                         }
                     </div>

@@ -19,6 +19,7 @@ div#header-right {
 
 img#header-logo {
     height: 5vh;
+    cursor: pointer;
 }
 
 img#header-menu-icon {
