@@ -8,4 +8,5 @@
   --clock-size: 40vmin;
   --button-size: calc(var(--clock-size) / 2);
   --main-color: #E64548;
+  --sub-color: #1F9985;
 }
