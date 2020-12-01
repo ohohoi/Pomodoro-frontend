@@ -5,6 +5,6 @@ import updateTimerSeconds from './updateTimerSeconds';
 const rootReducer = combineReducers({
     updateTimerState,
     updateTimerSeconds,
-});
+})
 
-export default rootReducer;
+export default rootReducer

@@ -8,7 +8,9 @@ const Footer = () => {
             <div className="copyright">Copyright 2020. Gyeonglim Bang</div>
             <div className="copyright">All rights reserved.</div>
             <div id="div-icon-carrier">
-                <a href="https://github.com/ohohoi" target="_blank"><img id="github-logo" src={ githubSrc } alt="github link"/></a>
+                <a href="https://github.com/ohohoi" target="_blank" rel="noreferrer">
+                    <img id="github-logo" src={ githubSrc } alt="github link"/>
+                </a>
             </div>
         </div>
     );
