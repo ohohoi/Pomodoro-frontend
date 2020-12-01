@@ -19,6 +19,7 @@ img#header-logo {
 
 img#header-menu-icon {
     height: 3vh;
+    cursor: pointer;
 }
 
 div#menu {
@@ -34,3 +35,7 @@ div#menu {
 div#drawer-menu {
     margin-top: calc(20px + 2vw);
 }
+
+[data-theme='compact'] .ant-drawer-body p {
+    margin-bottom: 0;
+  }
