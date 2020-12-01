@@ -4,6 +4,9 @@ import logoSrc from '../../resources/img/pomodoro-1.png'
 import menuSrc from '../../resources/img/menu-icon.png'
 import { Button, Drawer } from '@material-ui/core'
 import { Link } from 'react-router-dom'
+import store from '../../store/store'
+import { updateTimerState } from '../../actions/actionMaker'
+import * as timerStates from '../../store/TimerStates'
 
 const Header = () => {
     const menu = [
@@ -20,6 +23,11 @@ const Header = () => {
 
     const toggleDrawer = () => setToggle(!toggle)
 
+    const onMenuClick = () => {
+        const resetAction = updateTimerState(timerStates.RESET)
+        store.dispatch(resetAction)
+    }
+
     return (
         <div id="header">
             <Link to="/">
@@ -34,7 +42,7 @@ const Header = () => {
                     <div id="drawer-menu">
                         {
                             menu.map((d, i) => { return (
-                                <Link to={ `/${ d.link }` } style={{ textDecoration: 'none' }} key={ i }>
+                                <Link to={ `/${ d.link }` } style={{ textDecoration: 'none' }} key={ i } onClick={ onMenuClick }>
                                     <div id="menu" onClick={ toggleDrawer }>
                                         { d.display }
                                     </div>
