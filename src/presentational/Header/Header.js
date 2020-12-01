@@ -42,7 +42,7 @@ const Header = () => {
                     <div id="drawer-menu">
                         {
                             menu.map((d, i) => { return (
-                                <Link to={ `/${ d.link }` } style={{ textDecoration: 'none' }} key={ i } onClick={ onMenuClick }>
+                                <Link to={ `/${ d.link }` } style={{ textDecoration: 'none' }} key={ i }>
                                     <div id="menu" onClick={ toggleDrawer }>
                                         { d.display }
                                     </div>

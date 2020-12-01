@@ -1,0 +1,24 @@
+@import url("../../App.css");
+
+div#about {
+    min-height: 70vh;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+div.about-title {
+    margin-bottom: 10px;
+    color: var(--main-color);
+    font-family: "nanum-square-round";
+    font-size: calc(15px + 1vmin);
+    font-weight: 600;
+}
+
+div.about-contents {
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    line-height: 200%;
+    font-family: "nanum-square-round";
+    font-size: calc(15px + 0.5vmin);
+}

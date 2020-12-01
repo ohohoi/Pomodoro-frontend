@@ -1,10 +1,5 @@
 @import url("../../App.css");
 
-@font-face {
-    src: url("../../resources/font/andalemo.ttf");
-    font-family: "menu-font";
-}
-
 div#header {
     max-width: 100%;
     margin-top: 10px;
@@ -31,7 +26,7 @@ div#menu {
     margin-top: calc(10px + 1vw);
     margin-left: calc(2vw);
     color: var(--main-color);
-    font-family: "menu-font";
+    font-family: "andalemo";
     font-size: calc(15px + 0.5vmin);
     cursor: pointer;
 }
