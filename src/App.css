@@ -8,4 +8,20 @@
   --clock-size: 40vmin;
   --button-size: calc(var(--clock-size) / 2);
   --main-color: #E64548;
+  --sub-color: #1F9985;
+}
+
+@font-face {
+  src: url("./resources/font/andalemo.ttf");
+  font-family: "andalemo";
+}
+
+@font-face {
+  src: url("./resources/font/HappyTime.otf");
+  font-family: "happytime";
+}
+
+@font-face {
+  src: url("./resources/font/NanumSquareRoundR.ttf");
+  font-family: "nanum-square-round";
 }

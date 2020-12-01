@@ -1,9 +1,41 @@
+@import url("../../App.css");
+
 div#header {
     max-width: 100%;
     margin-top: 10px;
     margin-left: 10px;
 }
 
-img.header-logo {
-    height: 5vh;
+div#header-right {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
 }
+
+img#header-logo {
+    height: 5vh;
+    cursor: pointer;
+}
+
+img#header-menu-icon {
+    height: 3vh;
+    cursor: pointer;
+}
+
+div#menu {
+    width: calc(100px + 10vw);
+    margin-top: calc(10px + 1vw);
+    margin-left: calc(2vw);
+    color: var(--main-color);
+    font-family: "andalemo";
+    font-size: calc(15px + 0.5vmin);
+    cursor: pointer;
+}
+
+div#drawer-menu {
+    margin-top: calc(20px + 2vw);
+}
+
+[data-theme='compact'] .ant-drawer-body p {
+    margin-bottom: 0;
+  }
