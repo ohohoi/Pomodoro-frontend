@@ -1,9 +1,9 @@
 @import url('../../App.css');
 
 div#settings-container {
-    min-height: var(--clock-size);
-    margin-left: 30vw;
-    margin-right: 30vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     margin-top: 1vw;
     padding-top: 1vw;
+    text-align: center;
 }
