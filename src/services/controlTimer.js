@@ -2,6 +2,7 @@ import * as timerStates from '../store/TimerStates'
 import store from '../store/store'
 import { increase, reset } from './drawClock'
 import { updateTimerState } from '../actions/actionMaker'
+import './soundNoti'
 
 const interval = 1000
 const totalSeconds = 1500
@@ -20,6 +21,11 @@ const stopTimer = () => {
     clearInterval(timerId)
     reset()
     store.dispatch(updateTimerState(timerStates.RESET))
+    
+    const soundNotiOn = store.getState().setSoundNoti.soundNotiOn
+    if (soundNotiOn) {
+        soundNoti()
+    }
 }
 
 const controlTimer = () => {
