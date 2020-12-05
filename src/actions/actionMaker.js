@@ -12,3 +12,7 @@ export const increaseSeconds = () => ({
 export const resetSeconds = () => ({
     type: types.RESET_SECONDS,
 })
+
+export const setSoundNoti = () => ({
+    type: types.SET_SOUND_NOTI,
+})

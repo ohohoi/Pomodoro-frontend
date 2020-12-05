@@ -1,6 +1,6 @@
 div#btn-container {
     width: 100%;
-    height: var(--button-size);
+    height: calc(var(--button-size) / 2);
     margin-top: 10vmin;
 }
 
